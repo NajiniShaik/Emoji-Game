@@ -1,0 +1,73 @@
+/* Write your code here. */
+
+.nav-bar {
+  background-color: #ffffff33;
+  font-family: 'Roboto';
+}
+
+.navbar-card {
+  height: 90px;
+  width: 88%;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 769px) {
+  .navbar-card {
+    width: 90%;
+  }
+}
+
+/* logo card */
+
+.logo-card {
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+  text-decoration: none;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+.logo-title {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 600;
+  align-self: center;
+  margin: 0px;
+}
+
+@media (max-width: 769px) {
+  .logo {
+    height: 40px;
+    width: 40px;
+  }
+  .logo-title {
+    font-size: 17px;
+  }
+}
+
+/* score board */
+
+.score-board {
+  display: flex;
+  gap: 22px;
+}
+
+.score {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 769px) {
+  .score {
+    font-size: 15px;
+  }
+}
